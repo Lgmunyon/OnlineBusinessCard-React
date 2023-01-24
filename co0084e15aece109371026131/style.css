@@ -1,0 +1,160 @@
+body {
+    box-sizing: border-box;
+    background: #23252C;
+    max-width: 550px;
+    max-height: 868px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    color: white;
+}
+
+/*--HEADER--*/
+.container-header {
+    /* width: 317px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headshot {
+    max-height: 317px;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+h1 {
+    font-size: 25px;
+    margin: 25px 0 0 0;
+}
+
+.position {
+    margin: 3px 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #F3BF99;
+}
+
+.website {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #F5F5F5;
+}
+
+.email-btn {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    /* gap: 8px; */
+
+    width: 247px;
+    height: 34px;
+    /* left: 151px; */
+    top: 469px;
+
+    /* white */
+    background: #FFFFFF;
+
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.email-icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 3px
+}
+
+
+/*--ABOUT/INTERESTS--*/
+.container-about {
+    margin: 0 70px;
+}
+.container-about > h3 {
+    margin: 40px 0 0 0;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.container-about > p {
+    margin-top: 5px;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.container-interests{
+      margin: 0 70px;
+}
+
+.container-interests > h3{
+    margin: 25px 0 0 0;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.container-interests > p {
+    margin-top: 5px;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+/*--FOOTER--*/
+.container-footer {
+    width: 420px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 60px
+}
+
+.container-footer > img {
+    border-radius: 5px;
+    /* width: 25px; */
+    left: 34.36%;
+    right: 61.09%;
+    top: 89.75%;
+    bottom: 7.37%;
+    /* display: flex; */
+    /* align-content: space-between; */
+    /* flex-direction: column; */
+}
+
+.twitter-icon {
+    width: 30px;
+    margin: 17px 30px 20px 100px;
+}
+
+.linkedin-icon {
+    width: 35px;
+    margin: 18px 47px 17px 40px; 
+}
+
+.github-icon {
+    width: 27px;
+    margin: 17px 30px 20px 
+}
